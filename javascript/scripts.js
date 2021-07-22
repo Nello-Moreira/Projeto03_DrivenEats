@@ -21,8 +21,6 @@ function changeActivationStatus(){
         }
         optionActivation(this, active_string, parent_id);
     }
-
-    console.log(bill)
 }
 
 function optionActivation(option, active_string, section){
@@ -54,7 +52,6 @@ function getPrice(price_string){
     // Getting only the number of the string
     price_string = price_string.slice(price_string.indexOf(" ") + 1);
     price_string = price_string.replace(",", ".")
-    console.log(Number(price_string));
     return Number(price_string)
 }
 
