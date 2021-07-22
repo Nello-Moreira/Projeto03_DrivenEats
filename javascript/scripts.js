@@ -38,7 +38,7 @@ function optionDeactivation(option, active_string, section){
     bill[section] = [];
 }
 
-function indexOfActivetedOption(options, active_string){
+function indexOfActiveOption(options, active_string){
     let index = -1;
     for (let i = 0; i < options.length; i++){
         if (options[i].className.indexOf(active_string) !== -1){
