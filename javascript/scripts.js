@@ -61,8 +61,8 @@ function getPrice(price_string) {
 }
 
 function confirmationButtonChanger() {
-    button_div = document.getElementsByClassName("bottom-button")[0];
-    confirmation_button = button_div.getElementsByTagName("input")[0];
+    let button_div = document.getElementsByClassName("bottom-button")[0];
+    let confirmation_button = button_div.getElementsByTagName("input")[0];
 
     if (bill.meal.length > 0 && bill.drink.length > 0 && bill.dessert.length > 0) {
         confirmation_button.className = "button-enabled";
