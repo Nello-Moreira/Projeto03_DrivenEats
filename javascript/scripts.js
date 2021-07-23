@@ -83,7 +83,6 @@ function openBillWindow() {
 
     // Bill display
     document.getElementsByClassName("bill-background")[0].classList.remove("hidden");
-
 }
 
 function closeBillWindow() {
@@ -147,11 +146,9 @@ const bill = {
         if (this.meal.length > 0) {
             sum += this.meal[1];
         }
-
         if (this.drink.length > 0) {
             sum += this.drink[1];
         }
-
         if (this.dessert.length > 0) {
             sum += this.dessert[1];
         }
