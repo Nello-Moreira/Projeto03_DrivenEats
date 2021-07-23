@@ -22,7 +22,6 @@ function changeActivationStatus() {
         }
         optionActivation(this, active_class, hidden_class, parent_id);
     }
-
     confirmationButtonChanger();
 }
 
