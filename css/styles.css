@@ -22,10 +22,9 @@ ul {
 
 ul::-webkit-scrollbar {
     height: 5px;
-    
 }
 
-ul:hover::-webkit-scrollbar-track{
+ul:hover::-webkit-scrollbar-track {
     background-color: none;
 }
 
@@ -48,7 +47,7 @@ ul:hover::-webkit-scrollbar-thumb:hover {
     padding: 18px var(--left-space);
     margin-bottom: 31px;
     background-color: #CF2B2B;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0, 0.4);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
 }
 
 .logo {
@@ -94,7 +93,8 @@ ul:hover::-webkit-scrollbar-thumb:hover {
     align-items: flex-start;
     position: relative;
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 5px -4px rgba(0, 0, 0, 0.25);;
+    box-shadow: 0px 0px 5px -4px rgba(0, 0, 0, 0.25);
+    ;
 }
 
 .option img {
@@ -130,9 +130,9 @@ ul:hover::-webkit-scrollbar-thumb:hover {
     color: #000000;
 }
 
-.icon{
+.icon {
     font-size: 20px;
-    color: #32B72F; 
+    color: #32B72F;
     position: absolute;
     right: calc((var(--option-width) - var(--illustration-width))/2);
     bottom: var(--price-and-checked-bottom);
@@ -160,17 +160,17 @@ ul:hover::-webkit-scrollbar-thumb:hover {
     border: none;
 }
 
-.button-enabled{
+.button-enabled {
     background-color: #32B72F;
     cursor: pointer;
 }
 
-.button-disabled{
-    background-color:#CBCBCB;
+.button-disabled {
+    background-color: #CBCBCB;
     cursor: not-allowed;
 }
 
-.bill-background{
+.bill-background {
     background-color: rgba(255, 255, 255, 0.9);
     position: fixed;
     top: 0;
@@ -183,7 +183,7 @@ ul:hover::-webkit-scrollbar-thumb:hover {
     justify-content: center;
 }
 
-.bill-confirmation{
+.bill-confirmation {
     width: 337px;
     height: 355px;
     border-radius: 9px;
@@ -196,12 +196,12 @@ ul:hover::-webkit-scrollbar-thumb:hover {
     align-items: center;
 }
 
-.bill-confirmation input{
+.bill-confirmation input {
     font-weight: 700;
     height: 52px;
 }
 
-.bill-title{
+.bill-title {
     height: 20px;
     font-weight: 700;
     height: 52px;
@@ -209,29 +209,29 @@ ul:hover::-webkit-scrollbar-thumb:hover {
     align-items: center;
 }
 
-.bill-body{
+.bill-body {
     width: 90%;
     height: auto;
     margin: auto 0;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
-.bill-body > div p{
+.bill-body>div p {
     margin-bottom: 17px;
 }
 
-.bill-body>div p:last-child{
+.bill-body>div p:last-child {
     font-weight: 700;
 }
 
-.items-prices{
+.items-prices {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
-.bill-confirmation-button{
+.bill-confirmation-button {
     font-size: inherit;
     color: #50D074;
     width: 90%;
@@ -240,22 +240,17 @@ ul:hover::-webkit-scrollbar-thumb:hover {
     border-radius: 100px;
 }
 
-.bill-cancel-button{
+.bill-cancel-button {
     font-size: 20px;
     color: inherit;
-    
     background-color: inherit;
     border: none;
 }
 
-
-
-
-
-.active{
+.active {
     box-shadow: inset 0px 0px 0px 5px #32B72F;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
